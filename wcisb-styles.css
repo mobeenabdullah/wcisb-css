@@ -4,8 +4,8 @@
 /* HEADER */
 .site-branding {
     margin-bottom: 0 !important;
-    height: 100% 0 !important;
-    display: flex 0 !important;
+    height: 100% !important;
+    display: flex !important;
     align-items: center;
     text-align: center;
 }
@@ -29,6 +29,7 @@
 }
 .navigation-top {
     background-color: #0099CC;
+    border-top: 3px solid #FFFFFF;
 }
 .wrap {
     padding: 0 2em !important;
@@ -48,6 +49,6 @@
 #top-menu #menu-item-170 > a {
     color: #0099CC;
 }
-#content {
+.menu-scroll-down {
     display: none;
 }
