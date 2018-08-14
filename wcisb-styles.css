@@ -1,7 +1,18 @@
 /* HEADER */
-
-li#menu-item-170 {
-    background: #86d864;
+.navigation-top {
+    background-color: #0099CC;
+}
+#top-menu {
+    text-transform: uppercase;
+}
+#top-menu li a {
+    color: #FFFFFF;
+}
+#top-menu #menu-item-170 {
+    background: #FFFFFF;
     border-radius: 30px;
     padding: 0px 10px;
+}
+#top-menu #menu-item-170 {
+    color: #0099CC;
 }
