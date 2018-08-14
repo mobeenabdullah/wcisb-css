@@ -31,9 +31,8 @@
     background-color: #0099CC;
     border-top: 3px solid #FFFFFF;
 }
-.wrap {
+.navigation-top .wrap {
     padding: 0 2em !important;
-    padding-bottom: 0 !important;
 }
 #top-menu {
     text-transform: uppercase;
