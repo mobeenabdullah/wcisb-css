@@ -6,6 +6,9 @@
     align-items: center;
     text-align: center;
 }
+.custom-logo-link img {
+    max-height: 160px !important;
+}
 .site-title {
     font-size: 60px;
 }
