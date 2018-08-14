@@ -37,16 +37,29 @@
 #top-menu {
     text-transform: uppercase;
 }
+#top-menu li {
+    position: relative;
+}
 #top-menu > li > a {
     color: #FFFFFF;
 }
-#top-menu #menu-item-170 {
-    position: relative;
+#top-menu li:first-child:before {
+    content: "\f486";
+    font-family: Dashicons;
+    font-size: 18px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 10px;
+    left: 27px;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+}
+#top-menu li:last-child {
     background: #FFFFFF;
     padding: 0 20px 0 40px;
     float: right;
 }
-#top-menu #menu-item-170:before {
+#top-menu li:last-child:before {
     content: "\f486";
     font-family: Dashicons;
     font-size: 18px;
@@ -57,7 +70,7 @@
     font-weight: normal;
     -webkit-font-smoothing: antialiased;
 }
-#top-menu #menu-item-170 > a {
+#top-menu li:last-child > a {
     color: #7ABA7A;
 }
 .menu-scroll-down {
