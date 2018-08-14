@@ -1,8 +1,8 @@
 /* HEADER */
 .site-branding {
-    margin-bottom: 0;
-    height: 100%;
-    display: flex;
+    margin-bottom: 0 !important;
+    height: 100% 0 !important;
+    display: flex 0 !important;
     align-items: center;
     text-align: center;
 }
@@ -26,17 +26,20 @@
 }
 .navigation-top {
     background-color: #0099CC;
+    border-top: 5px solid #ffffff;
+}
+.wrap {
+    padding: 0;
 }
 #top-menu {
     text-transform: uppercase;
 }
-#top-menu li > a {
+#top-menu > li > a {
     color: #FFFFFF;
 }
 #top-menu #menu-item-170 {
     background: #FFFFFF;
-    border-radius: 30px;
-    padding: 0px 10px;
+    padding: 0px 20px;
 }
 #top-menu #menu-item-170 > a {
     color: #0099CC;
