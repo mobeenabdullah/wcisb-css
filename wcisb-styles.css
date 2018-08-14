@@ -37,13 +37,13 @@
 #top-menu {
     text-transform: uppercase;
 }
-#top-menu li {
+#top-menu > li {
     position: relative;
 }
 #top-menu > li > a {
     color: #FFFFFF;
 }
-#top-menu li:first-child:before {
+#top-menu > li:first-child:before {
     content: "\f102";
     font-family: Dashicons;
     font-size: 18px;
@@ -54,12 +54,12 @@
     font-weight: normal;
     -webkit-font-smoothing: antialiased;
 }
-#top-menu li:last-child {
+#top-menu > li:last-child {
     background: #FFFFFF;
     padding: 0 20px 0 40px;
     float: right;
 }
-#top-menu li:last-child:before {
+#top-menu > li:last-child:before {
     content: "\f486";
     font-family: Dashicons;
     font-size: 18px;
@@ -70,7 +70,7 @@
     font-weight: normal;
     -webkit-font-smoothing: antialiased;
 }
-#top-menu li:last-child > a {
+#top-menu > li:last-child > a {
     color: #7ABA7A;
 }
 .menu-scroll-down {
