@@ -41,9 +41,21 @@
     color: #FFFFFF;
 }
 #top-menu #menu-item-170 {
+    position: relative;
     background: #FFFFFF;
-    padding: 0px 20px;
+    padding: 0 20px 0 40px;
     float: right;
+}
+#top-menu #menu-item-170:before {
+    content: "\f486";
+    font-family: Dashicons;
+    font-size: 18px;
+    color: #7ABA7A;
+    position: absolute;
+    top: 10px;
+    left: 27px;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
 }
 #top-menu #menu-item-170 > a {
     color: #7ABA7A;
