@@ -1,3 +1,6 @@
+/* FONT AWESOME */
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
 /* HEADER */
 .site-branding {
     margin-bottom: 0 !important;
@@ -26,10 +29,10 @@
 }
 .navigation-top {
     background-color: #0099CC;
-    border-top: 5px solid #ffffff;
 }
 .wrap {
-    padding: 0;
+    padding: 0 2em !important;
+    padding-bottom: 0 !important;
 }
 #top-menu {
     text-transform: uppercase;
@@ -40,7 +43,11 @@
 #top-menu #menu-item-170 {
     background: #FFFFFF;
     padding: 0px 20px;
+    float: right;
 }
 #top-menu #menu-item-170 > a {
     color: #0099CC;
+}
+#content {
+    display: none;
 }
