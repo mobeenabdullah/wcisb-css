@@ -23,12 +23,12 @@
     top: 0;
     left: 0;
     content: "";
-    background: rgba(0, 153, 204, .7);
+    background: rgba(122, 186, 122, .7);
     height: 100%;
     width: 100%;
 }
 .navigation-top {
-    background-color: #0099CC;
+    background-color: #7ABA7A;
     border-top: 3px solid #FFFFFF;
 }
 .navigation-top .wrap {
@@ -46,7 +46,7 @@
     float: right;
 }
 #top-menu #menu-item-170 > a {
-    color: #0099CC;
+    color: #7ABA7A;
 }
 .menu-scroll-down {
     display: none !important;
