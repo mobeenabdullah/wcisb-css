@@ -122,3 +122,45 @@
 .menu-scroll-down {
     display: none !important;
 }
+
+
+
+
+/* Event Buttons Section */
+.event-buttons {
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+.event-buttons li {
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+    transition-duration: .3s;
+}
+.event-buttons li:hover {
+    transform: translateY(-10px);
+}
+.event-buttons li:last-child {
+    margin-right: 0;
+}
+.event-buttons li a {
+    display: inline-block;
+    padding: 20px 0;
+    width: 150px;
+    border-radius: 5px;
+    background: #7ABA7A;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.event-buttons li a .eb-icon {
+    display: block;
+    font-size: 36px;
+}
+.event-buttons li a .eb-title {
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
