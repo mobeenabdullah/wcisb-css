@@ -41,6 +41,7 @@
     position: relative;
 }
 #top-menu > li > a {
+    position: relative;
     color: #FFFFFF;
 }
 #top-menu > li:first-child:before {
@@ -54,14 +55,14 @@
     font-weight: normal;
     -webkit-font-smoothing: antialiased;
 }
-#top-menu > li:nth-child(2):before {
-    content: "\f486";
+#top-menu > li:nth-child(2) a:before {
+    content: "\f102";
     font-family: Dashicons;
     font-size: 18px;
-    color: #7ABA7A;
+    color: #FFFFFF;
     position: absolute;
     top: 10px;
-    left: 27px;
+    left: -5px;
     font-weight: normal;
     -webkit-font-smoothing: antialiased;
 }
