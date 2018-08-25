@@ -54,10 +54,16 @@
     font-weight: normal;
     -webkit-font-smoothing: antialiased;
 }
-#top-menu > li:last-child {
-    background: #FFFFFF;
-    padding: 0 20px 0 40px;
-    float: right;
+#top-menu > li:nth-child(2):before {
+    content: "\f486";
+    font-family: Dashicons;
+    font-size: 18px;
+    color: #7ABA7A;
+    position: absolute;
+    top: 10px;
+    left: 27px;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
 }
 #top-menu > li:last-child:before {
     content: "\f486";
@@ -69,6 +75,11 @@
     left: 27px;
     font-weight: normal;
     -webkit-font-smoothing: antialiased;
+}
+#top-menu > li:last-child {
+    background: #FFFFFF;
+    padding: 0 20px 0 40px;
+    float: right;
 }
 #top-menu > li:last-child > a {
     color: #7ABA7A;
