@@ -55,8 +55,8 @@
     font-weight: normal;
     -webkit-font-smoothing: antialiased;
 }
-#top-menu > li:nth-child(2) a:before {
-    content: "\f102";
+#top-menu > li:nth-child(2) > a:before {
+    content: "\f348";
     font-family: Dashicons;
     font-size: 18px;
     color: #FFFFFF;
