@@ -123,6 +123,10 @@
     display: none !important;
 }
 
+/* Hover Dropdown Menu Color Change */
+.main-navigation li li:hover, .main-navigation li li.focus {
+    background-color: #001e39;
+}
 
 
 
