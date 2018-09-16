@@ -127,6 +127,9 @@
 #top-menu > li:last-child:hover > a {
     color: #FFFFFF;
 }
+#top-menu > li:last-child:hover:before {
+    color: #FFFFFF;
+}
 .menu-scroll-down {
     display: none !important;
 }
