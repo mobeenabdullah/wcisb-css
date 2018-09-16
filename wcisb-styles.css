@@ -170,6 +170,7 @@
     transition-duration: .3s;
 }
 .event-buttons li a:hover {
+    color: #FFFFFF;
     background-color: #2ab220;
 }
 .event-buttons li a .eb-icon {
