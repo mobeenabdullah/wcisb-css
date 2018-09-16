@@ -162,22 +162,24 @@
 }
 .event-buttons li a {
     display: inline-block;
-    padding: 20px 0;
+    padding: 10px 0;
     width: 150px;
-    border-radius: 5px;
-    background: #2ab220;
+    background: #001d38;
     color: #FFFFFF;
     text-decoration: none;
 }
 .event-buttons li a .eb-icon {
     display: block;
-    font-size: 36px;
+}
+.event-buttons li a .eb-icon span {
+    height: inherit;
+    width: inherit;
+    font-size: 46px;
 }
 .event-buttons li a .eb-title {
     display: block;
-    margin-top: 10px;
-    font-size: 18px;
-    text-transform: uppercase;
+    margin-top: 0;
+    font-size: 14px;
 }
 
 /* Test Comment */
