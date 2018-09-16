@@ -163,10 +163,14 @@
 .event-buttons li a {
     display: inline-block;
     padding: 10px 0;
-    width: 150px;
+    width: 110px;
     background: #001d38;
     color: #FFFFFF;
     text-decoration: none;
+    transition-duration: .3s;
+}
+.event-buttons li a:hover {
+    background-color: #2ab220;
 }
 .event-buttons li a .eb-icon {
     display: block;
