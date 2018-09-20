@@ -187,4 +187,69 @@
     font-size: 14px;
 }
 
-/* Test Comment */
+/* WC Speakers on Homepage */
+/* .wcorg-speakers .wcorg-speaker {
+    display: inline-block;
+    max-width: 44%;
+    text-align: center;
+}
+.wcorg-speakers .wcorg-speaker-description img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.wcorg-speakers .wcorg-speaker-description h2 {
+    font-size: 16px;
+    text-decoration: none;
+    padding: 0;
+}
+.wcorg-speakers .wcorg-speaker-description h5 {
+    font-size: 11px;
+    text-transform: unset;
+    font-weight: normal;
+    font-family: inherit;
+    text-align: center;
+} */
+
+
+/* New Styling for Speakers*/
+.wcorg-speakers .wcorg-speaker {
+    max-width: 210px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.wcorg-speakers .wcorg-speaker h2 {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+.wcorg-speaker-description img {
+    border-radius: 50%;
+    border: 1px solid #2ab220;
+    overflow: hidden;
+    margin-bottom: 10px;
+    box-sizing: content-box;
+}
+.speaker-buttons {
+    margin-top: 10px;
+}
+.speaker-buttons a {
+    display: inline-block;
+    background: #001e39;
+    color: #FFF;
+    width: 47%;
+    padding: 5px 10px;
+    margin: 0;
+    border-radius: 3px;
+    border: 1px solid #001e39;
+    font-size: 11px;
+    box-shadow: none;
+}
+.speaker-buttons a.speaker-topic-info-link {
+    background: #2ab220;
+    border-color: #2ab220;
+}
