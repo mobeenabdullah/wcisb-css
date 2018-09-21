@@ -1,6 +1,6 @@
 /* HEADER */
 .site-branding a:hover, .site-branding a:focus {
-    opacity: 0;
+    opacity: 1;
 }
 .site-branding {
     margin-bottom: 0 !important;
