@@ -142,6 +142,10 @@
     background-color: #001e39;
 }
 
+/* Homepage Headings */
+.home .content-area .entry-header .entry-title {
+    font-size: 30px;
+}
 
 
 /* Event Buttons Section */
@@ -279,4 +283,10 @@
     float: none;
     height: auto;
     line-height: inherit;
+}
+.single .speaker-buttons {
+    display: none;
+}
+.home .speaker-profile-info, .page .speaker-profile-info {
+    display: none;
 }
