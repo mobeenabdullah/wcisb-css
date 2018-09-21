@@ -288,5 +288,5 @@
     display: none;
 }
 .home .speaker-profile-info, .page .speaker-profile-info {
-    display: none;
+    display: none !important;
 }
