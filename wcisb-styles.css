@@ -315,3 +315,6 @@
     height: 70px;
     border-radius: 50%;
 }
+.wcorg-organizers .wcorg-organizer .wcorg-organizer-description p {
+    font-size: 11px;
+}
