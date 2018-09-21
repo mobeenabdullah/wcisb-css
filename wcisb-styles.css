@@ -220,6 +220,7 @@
 
 /* New Styling for Speakers*/
 .wcorg-speakers .wcorg-speaker {
+    margin-bottom: 30px;
     max-width: 210px;
     width: 100%;
     text-align: center;
@@ -289,4 +290,28 @@
 }
 .home .speaker-profile-info, .page .speaker-profile-info {
     display: none !important;
+}
+
+
+/* Organizers */
+.wcorg-organizers .wcorg-organizer {
+    float: left;
+    margin-right: 5px;
+    width: 32%;
+}
+.wcorg-organizers .wcorg-organizer h2 {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 0 10px 0;
+    padding: 0 0 5px 0;
+    border-bottom: 1px solid #eee;
+}
+.wcorg-organizers .wcorg-organizer .wcorg-organizer-description img {
+    float: left;
+    border: 1px solid #2ab220;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
 }
