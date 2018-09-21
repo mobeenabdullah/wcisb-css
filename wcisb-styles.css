@@ -9,13 +9,16 @@
     align-items: center;
     text-align: center;
 }
-.custom-logo-link img {
+.home .site-branding {
+    text-align: center;
+}
+.home .custom-logo-link img {
     max-height: 270px !important;
 }
-.site-title {
+.home .site-title {
     font-size: 60px;
 }
-.site-description {
+.home .site-description {
     font-size: 48px;
 }
 .custom-header {
