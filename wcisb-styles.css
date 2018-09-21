@@ -301,6 +301,10 @@
     max-width: 100%;
     background: #001d38;
     color: #FFF;
+    text-align: center;
+}
+.home #panel2 .wrap .entry-title {
+    color: #FFF;
 }
 .wcorg-organizers .wcorg-organizer {
     float: left;
@@ -312,7 +316,9 @@
     font-weight: 600;
     margin: 0 0 10px 0;
     padding: 0 0 5px 0;
-    border-bottom: 1px solid #eee;
+    border-bottom: 2px solid #FFF;
+    color: #FFF;
+    box-sizing: content-box;
 }
 .wcorg-organizers .wcorg-organizer .wcorg-organizer-description img {
     float: left;
@@ -325,6 +331,9 @@
 }
 .wcorg-organizers .wcorg-organizer .wcorg-organizer-description p {
     font-size: 11px;
+}
+.wcorg-organizers .wcorg-organizer .wcorg-organizer-description p a {
+    color: #FFF;
 }
 
 /* Homepage Volunteer Banners */
