@@ -352,3 +352,17 @@
 .page .site-branding-text .site-description, .single .site-branding-text .site-description {
     font-size: 44px;
 }
+
+/* Header settings on Homepage */
+.home .site-branding {
+    text-align: center;
+}
+.home .custom-logo-link img {
+    max-height: 270px !important;
+}
+.home .site-title {
+    font-size: 60px;
+}
+.home .site-description {
+    font-size: 48px;
+}
