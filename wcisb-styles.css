@@ -322,6 +322,8 @@
 /* Homepage Volunteer Banners */
 .home article#panel4 .wrap {
     max-width: 100%;
+    text-align: center;
+    background: #58d14f;
 }
 .wcisb-volunteers {
     padding: 0;
