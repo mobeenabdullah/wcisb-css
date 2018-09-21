@@ -298,6 +298,7 @@
 
 /* Organizers */
 .home #panel2 .wrap {
+    max-width: 100%;
     background: #001d38;
     color: #FFF;
 }
