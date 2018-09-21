@@ -260,6 +260,7 @@
 .speaker-buttons a:hover {
     background-color: transparent;
     color: #001e39;
+    box-shadow: none;
 }
 .speaker-buttons a.speaker-topic-info-link {
     background: #2ab220;
