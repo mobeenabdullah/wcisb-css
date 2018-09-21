@@ -318,3 +318,18 @@
 .wcorg-organizers .wcorg-organizer .wcorg-organizer-description p {
     font-size: 11px;
 }
+
+/* Homepage Volunteer Banners */
+.home article#panel4 .wrap {
+    max-width: 100%;
+}
+.wcisb-volunteers {
+    padding: 0;
+    margin: 0;
+}
+.wcisb-volunteers li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    max-width: 245px;
+}
