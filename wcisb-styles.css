@@ -297,10 +297,14 @@
 
 
 /* Organizers */
+.home #panel2 .wrap {
+    background: #001d38;
+    color: #FFF;
+}
 .wcorg-organizers .wcorg-organizer {
     float: left;
     margin-right: 5px;
-    width: 32%;
+    width: 19%;
 }
 .wcorg-organizers .wcorg-organizer h2 {
     font-size: 14px;
