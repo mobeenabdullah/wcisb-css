@@ -316,25 +316,34 @@
     font-weight: 600;
     margin: 0 0 10px 0;
     padding: 0 0 5px 0;
-    border-bottom: 2px solid #FFF;
+    border-bottom: 1px solid #FFF;
     color: #FFF;
-    box-sizing: content-box;
 }
 .wcorg-organizers .wcorg-organizer .wcorg-organizer-description img {
     float: left;
-    border: 1px solid #2ab220;
+    border: 2px solid #FFF;
     margin-right: 5px;
     margin-bottom: 5px;
     width: 70px;
     height: 70px;
     border-radius: 50%;
+    box-sizing: content-box;
 }
 .wcorg-organizers .wcorg-organizer .wcorg-organizer-description p {
     font-size: 11px;
+    text-align: left;
 }
 .wcorg-organizers .wcorg-organizer .wcorg-organizer-description p a {
     color: #FFF;
 }
+/* Organizers on actual page */
+.page-slug-organizers #content .content-area, .page-slug-organizers #content .wrap {
+    max-width: 100% !important;
+}
+.page-slug-organizers #content .content-area .wcorg-organizers .wcorg-organizer .wcorg-organizer-description p a {
+    color: #333;
+}
+
 
 /* Homepage Volunteer Banners */
 .home article#panel3 .wrap {
