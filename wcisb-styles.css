@@ -456,7 +456,10 @@
     .page .site-branding, .single .site-branding {
         text-align: center;
     }
-    .wcorg-speakers .wcorg-speaker {
-        margin: 0 auto 30px auto;
+    .wcorg-speakers {
+        text-align: center;
     }
+    /* .wcorg-speakers .wcorg-speaker {
+        margin: 0 auto 30px auto;
+    } */
 }
