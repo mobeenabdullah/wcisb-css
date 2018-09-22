@@ -423,6 +423,7 @@
         position: relative;
         margin-right: 10px;
         color: #2ab220;
+        margin-left: 20px;
     }
     #top-menu > li:first-child:before {
         top: 6px;
@@ -439,5 +440,14 @@
     }
     #top-menu > li:last-child {
         float: none;
+        background: #2ab220;
+    }
+    #top-menu > li:last-child > a {
+        color: #FFFFFF;
+        font-size: 14px;
+    }
+    #top-menu > li:last-child:before {
+        color: #FFFFFF;
+        top: 4px;
     }
 }
