@@ -399,10 +399,10 @@
         padding: 0;
     }
     .site-title {
-        font-size: 34px;
+        font-size: 34px !important;
     }
     .site-description {
-        font-size: 18px;
+        font-size: 18px !important;
     }
     .home .content-area .entry-header .entry-title {
         font-size: 18px;
@@ -415,5 +415,29 @@
     }
     .wcisb-volunteers li {
         margin-bottom: 20px;
+    }
+    #top-menu {
+        margin-bottom: 20px;
+    }
+    #top-menu > li > a {
+        position: relative;
+        margin-right: 10px;
+        color: #2ab220;
+    }
+    #top-menu > li:first-child:before {
+        top: 6px;
+        left: -5px;
+        color: #2ab220;
+    }
+    #top-menu > li:nth-child(2) > a:before, 
+    #top-menu > li:nth-child(3) > a:before,
+    #top-menu > li:nth-child(4) > a:before,
+    #top-menu > li:nth-child(5) > a:before {
+        top: 6px;
+        left: -25px;
+        color: #2ab220;
+    }
+    #top-menu > li:last-child {
+        float: none;
     }
 }
