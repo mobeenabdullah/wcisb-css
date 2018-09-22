@@ -389,3 +389,31 @@
 .home .site-description {
     font-size: 48px;
 }
+
+
+
+
+/* RESPONSIVE */
+@media all and (max-width: 480px) {
+    .site-branding .wrap {
+        padding: 0;
+    }
+    .site-title {
+        font-size: 34px;
+    }
+    .site-description {
+        font-size: 18px;
+    }
+    .home .content-area .entry-header .entry-title {
+        font-size: 18px;
+    }
+    .event-buttons li {
+        margin-bottom: 15px;
+    }
+    .wcorg-organizers .wcorg-organizer {
+        width: 100%;
+    }
+    .wcisb-volunteers li {
+        margin-bottom: 20px;
+    }
+}
