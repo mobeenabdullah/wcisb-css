@@ -450,4 +450,10 @@
         color: #FFFFFF;
         top: 4px;
     }
+    #tix-attendees .tix-columns-3 li {
+        width: 100%;
+    }
+    .page .site-branding, .single .site-branding {
+        text-align: center;
+    }
 }
