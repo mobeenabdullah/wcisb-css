@@ -390,6 +390,60 @@
     font-size: 48px;
 }
 
+/* Custom WCISB Organizers */
+.custom-wcisb-organizers {
+    padding: 0;
+    margin: 70px 0 20px 0;
+    list-style-type: none;
+    text-align: center;
+  }
+  .custom-wcisb-organizers li {
+    position: relative;
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #eee;
+    text-align: center;
+  }
+  .custom-wcisb-organizers li img {
+    margin-top: -50px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+  }
+  .custom-wcisb-organizers li h3 {
+    font-weight: normal;
+    text-transform: uppercase;
+  }
+  .custom-wcisb-organizers li .cwo-social {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  .custom-wcisb-organizers li .cwo-social li {
+    display: inline-block;
+    margin: 5px;
+    border: none;
+  }
+  .custom-wcisb-organizers li .cwo-social li a {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 32px;
+    font-size: 14px;
+    background: #001d38;
+    color: #FFF;
+    border: 1px solid #eee;
+    border-radius: 50%;
+    transition-duration: .3s;
+  }
+  .custom-wcisb-organizers li .cwo-social li a:hover {
+    background: #58d14f;
+  }
+
 
 
 
