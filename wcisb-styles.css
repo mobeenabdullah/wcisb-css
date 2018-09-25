@@ -304,7 +304,7 @@
     text-align: center;
 }
 .home #panel2 .wrap .entry-title {
-    color: #FFF;
+    /* color: #FFF; */
 }
 .wcorg-organizers .wcorg-organizer {
     float: left;
@@ -404,6 +404,7 @@
     padding: 10px 30px;
     border: 1px solid #eee;
     text-align: center;
+    width: 200px;
   }
   .custom-wcisb-organizers li img {
     margin-top: -60px;
@@ -415,7 +416,7 @@
   }
   .custom-wcisb-organizers li h3 {
     font-weight: normal;
-    text-transform: uppercase;
+    font-size: 16px;
   }
   .custom-wcisb-organizers li .cwo-social {
     margin: 0;
@@ -432,6 +433,7 @@
     text-align: center;
     font-size: 14px;
     color:#001d38;
+    box-shadow: none;
     transition-duration: .3s;
   }
   .custom-wcisb-organizers li .cwo-social li a:hover {
