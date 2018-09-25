@@ -299,8 +299,8 @@
 /* Organizers */
 .home #panel2 .wrap {
     max-width: 100%;
-    background: #001d38;
-    color: #FFF;
+    /* background: #001d38; */
+    /* color: #FFF; */
     text-align: center;
 }
 .home #panel2 .wrap .entry-title {
@@ -397,16 +397,16 @@
     list-style-type: none;
     text-align: center;
   }
-  .custom-wcisb-organizers li {
+  .custom-wcisb-organizers > li {
     position: relative;
     display: inline-block;
-    margin: 5px;
-    padding: 10px;
+    margin: 20px;
+    padding: 10px 30px;
     border: 1px solid #eee;
     text-align: center;
   }
   .custom-wcisb-organizers li img {
-    margin-top: -50px;
+    margin-top: -60px;
     border-radius: 50%;
     border: 1px solid #ccc;
     text-align: center;
@@ -429,19 +429,13 @@
   }
   .custom-wcisb-organizers li .cwo-social li a {
     display: inline-block;
-    height: 30px;
-    width: 30px;
     text-align: center;
-    line-height: 32px;
     font-size: 14px;
-    background: #001d38;
-    color: #FFF;
-    border: 1px solid #eee;
-    border-radius: 50%;
+    color:#001d38;
     transition-duration: .3s;
   }
   .custom-wcisb-organizers li .cwo-social li a:hover {
-    background: #58d14f;
+    color: #58d14f;
   }
 
 
