@@ -571,4 +571,17 @@
     /* .wcorg-speakers .wcorg-speaker {
         margin: 0 auto 30px auto;
     } */
+    .wcisb-call-boxes .wcisb-call-box {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .wcisb-call-boxes .wcisb-call-box a .wcisb-call-icon {
+        font-size: 100px;
+    }
+    .wcisb-call-boxes .wcisb-call-box a .wcisb-call-title h4 {
+        font-size: 24px;
+    }
+    .wcisb-call-boxes .wcisb-call-box a .wcisb-call-title h3 {
+        font-size: 30px;
+    }
 }
