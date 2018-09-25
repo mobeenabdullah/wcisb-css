@@ -73,7 +73,7 @@
     font-weight: normal;
     -webkit-font-smoothing: antialiased;
 }
-#top-menu > li:nth-child(3) > a:before {
+/* #top-menu > li:nth-child(3) > a:before {
     content: "\f469";
     font-family: Dashicons;
     font-size: 18px;
@@ -83,8 +83,8 @@
     left: -5px;
     font-weight: normal;
     -webkit-font-smoothing: antialiased;
-}
-#top-menu > li:nth-child(4) > a:before {
+} */
+#top-menu > li:nth-child(3) > a:before {
     content: "\f487";
     font-family: Dashicons;
     font-size: 18px;
@@ -95,7 +95,7 @@
     font-weight: normal;
     -webkit-font-smoothing: antialiased;
 }
-#top-menu > li:nth-child(5) > a:before {
+#top-menu > li:nth-child(4) > a:before {
     content: "\f488";
     font-family: Dashicons;
     font-size: 18px;
