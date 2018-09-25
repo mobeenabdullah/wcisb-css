@@ -400,7 +400,7 @@
   .custom-wcisb-organizers > li {
     position: relative;
     display: inline-block;
-    margin: 20px;
+    margin: 20px 0 40px 0;
     padding: 10px 30px;
     border: 1px solid #eee;
     text-align: center;
@@ -415,6 +415,7 @@
     height: 100px;
   }
   .custom-wcisb-organizers li h3 {
+    padding: 0;
     font-weight: normal;
     font-size: 16px;
   }
@@ -439,6 +440,57 @@
   .custom-wcisb-organizers li .cwo-social li a:hover {
     color: #58d14f;
   }
+
+  /* Custom Call Boxes */
+  .wcisb-call-boxes {
+    text-align: center;
+  }
+  .wcisb-call-boxes .wcisb-call-box {
+    display: inline-block;
+    float: left;
+    width: 32%;
+    margin: 10px;
+    background: #333;
+    text-align: center;
+  }
+  .wcisb-call-boxes .wcisb-call-box a {
+    display: block;
+    text-decoration: none;
+    color: #FFF;
+  }
+  .wcisb-call-boxes .wcisb-call-box a .wcisb-call-icon {
+    padding: 30px 0;
+    font-size: 120px
+  }
+  .wcisb-call-boxes .wcisb-call-box a .wcisb-call-title {
+    margin-bottom: 30px;
+    padding: 10px;
+    background: #000;
+  }
+  .wcisb-call-boxes .wcisb-call-box a .wcisb-call-title h3 {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 36px;
+  }
+  .wcisb-call-boxes .wcisb-call-box a .wcisb-call-title h4 {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 36px;
+  }
+  .wcb-volunteers, .wcb-sponsors, .wcb-speakers {
+    background: #001d38 !important;
+  }
+  .wcb-volunteers .wcisb-call-title, .wcb-sponsors .wcisb-call-title, .wcb-speakers .wcisb-call-title {
+    background: #2ab220 !important;
+  }
+  /* .wcb-speakers {
+    background: #2ab220 !important;
+  }
+  .wcb-speakers .wcisb-call-title {
+    background:  #001d38 !important;
+  } */
 
 
 
