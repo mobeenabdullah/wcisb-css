@@ -448,7 +448,7 @@
   .wcisb-call-boxes .wcisb-call-box {
     display: inline-block;
     float: left;
-    width: 32%;
+    width: 31%;
     margin: 10px;
     background: #333;
     text-align: center;
@@ -476,7 +476,7 @@
     margin: 0;
     padding: 0;
     text-transform: uppercase;
-    font-size: 60px;
+    font-size: 50px;
     color: #FFF;
   }
   .wcisb-call-boxes .wcisb-call-box a .wcisb-call-title h4 {
