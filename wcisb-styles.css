@@ -672,6 +672,15 @@
 
 
 /* SPONSORS PAGE */
-.page-slug-sponsors .wcorg-sponsors .wcorg-sponsor p {
+.page-slug-sponsors .wcorg-sponsors .wcorg-sponsor p, .page-slug-sponsors .wcorg-sponsors .wcorg-sponsor ul {
     display: none;
+}
+.page-slug-sponsors .wcorg-sponsors .wcorg-sponsor {
+    display: inline-block;
+}
+.page-slug-sponsors .wcorg-sponsors .wcorg-sponsor h3 {
+    display: none;
+}
+.page-slug-sponsors .wcorg-sponsors .wcorg-sponsor img {
+    max-width: 150px;
 }
