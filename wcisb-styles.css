@@ -715,7 +715,7 @@
 .page-slug-sponsors .wcorg-sponsor-level-silver-sponser h2 {
     background: #47ABE5;
     padding: 15px 40px;
-    color: #333;
+    color: #FFF;
     border-radius: 70px;
     text-align: left;
     text-transform: uppercase;
@@ -725,9 +725,9 @@
     margin-bottom: 30px;
 }
 .page-slug-sponsors .wcorg-sponsor-level-community h2 {
-    background: #b2dbbf;
+    background: #8dc39f;
     padding: 15px 40px;
-    color: #333;
+    color: #FFF;
     border-radius: 70px;
     text-align: left;
     text-transform: uppercase;
