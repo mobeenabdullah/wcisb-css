@@ -346,7 +346,7 @@
 
 
 /* Homepage Volunteer Banners */
-.home article#panel3 .wrap {
+.home article#panel4 .wrap {
     max-width: 100%;
     text-align: center;
     /* background: #58d14f; */
@@ -613,7 +613,7 @@
     max-width: 100%;
     background: linear-gradient(132deg, #ec5218, #1665c1);
     background-size: 400% 400%;
-    animation: BackgroundGradient 5s ease infinite;
+    animation: BackgroundGradient 10s ease infinite;
     overflow: hidden;
   }
   .wc-cta h2 {
@@ -660,10 +660,10 @@
 
 
 /* Fixes in JOIN US */
-.home #panel3 .entry-header {
+.home #panel4 .entry-header {
     display: none;
 }
-.home #panel3 .wrap {
+.home #panel4 .wrap {
     padding: 0;
 }
 .wc-cta + p {
