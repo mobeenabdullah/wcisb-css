@@ -736,6 +736,9 @@
 
 
 /* SPONSORS ON HOMEPAGE */
+article#panel3 entry-header {
+    text-align: center;
+}
 article#panel3 .wcorg-sponsors {
     margin-top: 50px;
     text-align: center;
