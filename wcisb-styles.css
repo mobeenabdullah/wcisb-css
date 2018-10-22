@@ -614,6 +614,7 @@
     background: linear-gradient(132deg, #ec5218, #1665c1);
     background-size: 400% 400%;
     animation: BackgroundGradient 5s ease infinite;
+    overflow: hidden;
   }
   .wc-cta h2 {
     margin: 20px 0 0 0;
