@@ -659,14 +659,19 @@
   
 
 
-/* Removed Entry Header of Join US on Homepage */
+/* Fixes in JOIN US */
 .home #panel3 .entry-header {
     display: none;
 }
 .home #panel3 .wrap {
     padding: 0;
 }
-
 .wc-cta + p {
+    display: none;
+}
+
+
+/* SPONSORS PAGE */
+.page-slug-sponsors .wcorg-sponsors .wcorg-sponsor p {
     display: none;
 }
