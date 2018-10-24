@@ -802,6 +802,9 @@ article#panel3 .wcorg-sponsor-level-community h2 {
 }
 
 /* SPEAKERS ON HOMEPAGE */
+.home #panel2 .wrap {
+    padding: 0;
+}
 .list-wc-isb-speakers {
     max-width: 100%;
     padding: 0;
@@ -843,10 +846,12 @@ article#panel3 .wcorg-sponsor-level-community h2 {
     display: inline-block;
     margin: 0 10px 0 0;
     padding: 0;
+    font-size: 16px;
 }
 .list-wc-isb-speakers li .wc-isb-speaker-info .wc-isb-speaker-title a {
     color: #333;
     text-decoration: none;
+    outline: none;
 }
 .list-wc-isb-speakers li .wc-isb-speaker-info .wc-isb-speaker-designation {
     display: inline-block;
@@ -854,6 +859,10 @@ article#panel3 .wcorg-sponsor-level-community h2 {
     padding: 0;
     font-size: 10px;
     color: #999;
+    letter-spacing: inherit;
+    text-transform: inherit;
+    font-family: sans-serif;
+    font-weight: lighter;
 }
 .list-wc-isb-speakers li .wc-isb-speaker-info .wc-isb-speaker-topic-title {
     margin: 5px 0;
@@ -866,6 +875,7 @@ article#panel3 .wcorg-sponsor-level-community h2 {
 .list-wc-isb-speakers li .wc-isb-speaker-info .wc-isb-speaker-topic-title a {
     color: #2ab220;
     text-decoration: none;
+    outline: none;
 }
 .list-wc-isb-speakers li .wc-isb-speaker-info .wc-isb-speaker-topic-title a .tpc-btn {
     display: inline-block;
