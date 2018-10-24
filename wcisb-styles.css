@@ -803,7 +803,8 @@ article#panel3 .wcorg-sponsor-level-community h2 {
 
 /* SPEAKERS ON HOMEPAGE */
 .home #panel2 .wrap {
-    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
 }
 .list-wc-isb-speakers {
     max-width: 100%;
