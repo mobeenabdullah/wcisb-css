@@ -905,3 +905,12 @@ article#panel3 .wcorg-sponsor-level-community h2 {
     outline: none;
     box-shadow: none;
 }
+
+/* Sponsors Logo Fix on Single Sponsors Pages */
+.wcb_sponsor-template-default.single-wcb_sponsor .single-featured-image-header img {
+    max-width: 500px;
+    max-height: 150px;
+    object-fit: contain;
+    object-position: center;
+    padding: 20px 0;
+}
