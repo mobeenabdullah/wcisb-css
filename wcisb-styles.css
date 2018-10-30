@@ -560,7 +560,7 @@
         left: -5px;
         color: #2ab220;
     }
-    #top-menu > li:nth-child(2) > a:before, 
+    #top-menu > li:nth-child(2) > a:before,
     #top-menu > li:nth-child(3) > a:before,
     #top-menu > li:nth-child(4) > a:before,
     #top-menu > li:nth-child(5) > a:before {
@@ -625,7 +625,7 @@
     font-size: 30px;
     font-family: sans-serif;
   }
-  
+
   .wc-cta a {
     display: inline-block;
     float: right;
@@ -650,13 +650,13 @@
     box-shadow: none;
     text-shadow: none;
   }
-  
+
   @keyframes BackgroundGradient {
     0% {background-position: 0% 50%;}
     50% {background-position: 100% 50%;}
     100% {background-position: 0% 50%;}
   }
-  
+
 
 
 /* Fixes in JOIN US */
@@ -913,4 +913,7 @@ article#panel3 .wcorg-sponsor-level-community h2 {
     object-fit: contain;
     object-position: center;
     padding: 20px 0;
+}
+.entry-content ul{
+  margin-bottom: 0;
 }
