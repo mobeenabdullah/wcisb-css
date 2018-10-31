@@ -914,3 +914,8 @@ article#panel3 .wcorg-sponsor-level-community h2 {
     object-position: center;
     padding: 20px 0;
 }
+
+/* TEMPORARY TICKET HIDING */
+.tix-ticket-1071 {
+    display: none;
+}
