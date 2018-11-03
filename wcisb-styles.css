@@ -5,8 +5,12 @@
 .site-branding {
     margin-bottom: 0 !important;
     height: 100% !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
     display: flex !important;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     text-align: center;
 }
 .home .site-branding {
@@ -121,7 +125,8 @@
     background: #FFFFFF;
     padding: 0 20px 0 40px;
     float: right;
-    transition-duration: .3s;
+    -webkit-transition-duration: .3s;
+            transition-duration: .3s;
 }
 #top-menu > li:last-child:hover {
     background-color: #001e39;
@@ -162,10 +167,12 @@
     display: inline-block;
     margin-right: 10px;
     text-align: center;
-    transition-duration: .3s;
+    -webkit-transition-duration: .3s;
+            transition-duration: .3s;
 }
 .event-buttons li:hover {
-    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
 }
 .event-buttons li:last-child {
     margin-right: 0;
@@ -177,7 +184,8 @@
     background: #001d38;
     color: #FFFFFF;
     text-decoration: none;
-    transition-duration: .3s;
+    -webkit-transition-duration: .3s;
+            transition-duration: .3s;
 }
 .event-buttons li a:hover {
     color: #FFFFFF;
@@ -243,7 +251,8 @@
     border: 1px solid #2ab220;
     overflow: hidden;
     margin-bottom: 10px;
-    box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
 }
 .wcorg-speaker-description h5 {
     font-size: 11px;
@@ -266,12 +275,14 @@
     border-radius: 3px;
     border: 1px solid #001e39;
     font-size: 11px;
-    box-shadow: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
 }
 .speaker-buttons a:hover {
     background-color: transparent;
     color: #001e39;
-    box-shadow: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
 }
 .speaker-buttons a.speaker-topic-info-link {
     background: #2ab220;
@@ -327,7 +338,8 @@
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
 }
 .wcorg-organizers .wcorg-organizer .wcorg-organizer-description p {
     font-size: 11px;
@@ -434,13 +446,27 @@
     text-align: center;
     font-size: 14px;
     color:#001d38;
-    box-shadow: none;
-    transition-duration: .3s;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    -webkit-transition-duration: .3s;
+            transition-duration: .3s;
+  }
+  .custom-wcisb-organizers li .cwo-social li a .dashicons{
+    -webkit-transition-duration: .3s;
+            transition-duration: .3s;
   }
   .custom-wcisb-organizers li .cwo-social li a:hover {
     color: #58d14f;
   }
-
+  .custom-wcisb-organizers li .cwo-social li a:hover .dashicons-facebook{
+    color: #3B5998;
+  }
+  .custom-wcisb-organizers li .cwo-social li a:hover .dashicons-twitter{
+    color: #1DA1F2;
+  }
+  .custom-wcisb-organizers li .cwo-social li a:hover .dashicons-wordpress{
+    color: #21759b;
+  }
   /* Custom Call Boxes */
   .wcisb-call-boxes {
     text-align: center;
